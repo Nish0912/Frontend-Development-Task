@@ -1,0 +1,232 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+input[type=radio] {
+    accent-color: darkcyan;
+}
+
+.section-1,
+.section-opt-1,
+.section-opt-2,
+.section-opt-3,
+.section-2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.section-1 header {
+    display: flex;
+    align-items: center;
+    width: 340px;
+}
+
+.section-1 header hr {
+    width: 93.996px;
+    height: 0.904px;
+    background: #C8C8C8;
+}
+
+.section-1 header h2 {
+    color: #007F61;
+    font-family: Metropolis;
+    font-size: 18.076px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 0 20px;
+}
+
+.section-opt-1,
+.section-opt-2,
+.section-opt-3 {
+    border-radius: 3.615px;
+    border: 0.904px solid #C8C8C8;
+    background: #FFF;
+    padding: 15px;
+    width: 340px;
+}
+
+.section-opt-1 label,
+.section-opt-2 label,
+.section-opt-3 label {
+    width: 310px;
+}
+
+.section-opt-1 label .main-1,
+.section-opt-2 label .main-1,
+.section-opt-3 label .main-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-opt-1 label .main-2 table,
+.section-opt-2 label .main-2 table,
+.section-opt-3 label .main-2 table {
+    border-spacing: 5px;
+    text-align: left;
+}
+
+table,
+th,
+td {
+    color: #000;
+    font-family: Inter;
+    font-size: 9.942px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+table select {
+    width: 60px;
+}
+
+.section-opt-1 label input,
+.section-opt-2 label input,
+.section-opt-3 label input {
+    margin-right: 15px;
+}
+
+.section-opt-1 label .middle,
+.section-opt-2 label .middle,
+.section-opt-3 label .middle {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-opt-1 label .start .label-1,
+.section-opt-2 label .start .label-1,
+.section-opt-3 label .start .label-1 {
+    color: #000;
+    font-family: Metropolis;
+    font-size: 14.461px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.section-opt-1 label .start .label-2,
+.section-opt-1 label .end,
+.section-opt-2 label .start .label-2,
+.section-opt-2 label .end .end-2 .p-2,
+.section-opt-3 label .start .label-2,
+.section-opt-3 label .end {
+    color: #000;
+    font-family: Metropolis;
+    font-size: 14.461px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.section-opt-1 label .start,
+.section-opt-2 label .start,
+.section-opt-3 label .start {
+    display: flex;
+}
+
+.section-opt-2 label .end {
+    display: flex;
+}
+
+.section-opt-2 label .end .end-1 {
+    display: flex;
+    align-items: end;
+    color: #000;
+    font-family: Inter;
+    font-size: 9.942px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.3;
+    text-decoration: line-through;
+}
+
+.section-opt-2 label .end .end-2 {
+    text-align: end;
+}
+
+.section-opt-2 label .end .end-2 .p-1 {
+    color: #007F61;
+    font-family: Inter;
+    font-size: 12.653px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.section-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-2 p:nth-child(1) {
+    color: #007F61;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.6;
+}
+
+.section-2 p:nth-child(2) {
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.section-3 button {
+    width: 100%;
+    height: 48px;
+    border: 1px solid  #007F61;
+    border-radius: 4px 4px 4px 0px;
+    background: #007F61;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: end;
+    color: #000;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.main-2 {
+    display: none;
+}
+
+.showContent {
+    display: contents !important;
+}
+
+.changeSectionStyle {
+    border-radius: 3.615px;
+    border: 0.904px solid #007F61;
+    background: #F4FBF9;
+}
