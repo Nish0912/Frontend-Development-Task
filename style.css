@@ -12,7 +12,7 @@ body {
 }
 
 input[type=radio] {
-    accent-color: darkcyan;
+    accent-color: #007F61;
 }
 
 .section-1,
@@ -22,7 +22,7 @@ input[type=radio] {
 .section-2 {
     display: flex;
     justify-content: center;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .section-1 header {
@@ -83,14 +83,16 @@ th,
 td {
     color: #000;
     font-family: Inter;
-    font-size: 9.942px;
+    font-size: 11px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: normal;
+    margin-left: 8px;
 }
 
 table select {
     width: 60px;
+    height: 20px;
 }
 
 .section-opt-1 label input,
@@ -142,8 +144,8 @@ table select {
 }
 
 .section-opt-2 label .end .end-1 {
-    display: flex;
-    align-items: end;
+    margin-top: 20px;
+    margin-right: 25px;
     color: #000;
     font-family: Inter;
     font-size: 9.942px;
